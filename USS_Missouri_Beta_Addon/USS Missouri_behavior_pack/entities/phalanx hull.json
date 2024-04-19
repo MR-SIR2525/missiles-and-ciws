@@ -1,6 +1,20 @@
 {
     "format_version": "1.13.0",
     "minecraft:entity": {
+        "description": {
+            "animations": {
+                "spawn": "animation.spawn_turret"
+            },
+            "identifier": "us:phalanx",
+            "is_experimental": false,
+            "is_spawnable": false,
+            "is_summonable": true,
+            "scripts": {
+                "animate": [
+                    "spawn"
+                ]
+            }
+        },
         "components": {
             "minecraft:can_climb": {},
             "minecraft:collision_box": {
@@ -62,20 +76,6 @@
             },
             "minecraft:underwater_movement": {
                 "value": 0.02
-            }
-        },
-        "description": {
-            "animations": {
-                "spawn": "animation.spawn_turret"
-            },
-            "identifier": "us:phalanx",
-            "is_experimental": false,
-            "is_spawnable": false,
-            "is_summonable": true,
-            "scripts": {
-                "animate": [
-                    "spawn"
-                ]
             }
         }
     }
