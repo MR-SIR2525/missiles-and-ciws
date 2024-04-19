@@ -2,18 +2,10 @@
     "format_version": 1,
     "header": {
         "name": "§9USS §1Missouri",
-        "uuid": "759cccb4-ad47-42f8-baff-bf8fa27ac299",
-        "version": [
-            0,
-            0,
-            2
-        ],
-        "description": "§2Model Missouri by HerodrinePro124; Mark12,Borfor40mm model by Creator Crafter321 by §4HerodrinePro124",
-        "min_engine_version": [
-            1,
-            8,
-            0
-        ]
+        "uuid": "759cccb4-ad47-42f8-baff-bf8fa27ac299",  // Same UUID
+        "version": [0, 0, 2],  // Updated version number
+        "description": "§2Model Missouri by HerodrinePro124; Updated Mark12, Bofor40mm model by Creator Crafter321 by §4HerodrinePro124",
+        "min_engine_version": [1, 8, 0]
     },
     "modules": [
         {
@@ -23,17 +15,17 @@
             "version": [
                 0,
                 0,
-                1
+                2
             ]
         }
     ],
     "dependencies": [
         {
-            "uuid": "83c7b645-b6a7-41e3-931b-6e2530c53362",
+            "uuid": "83c7b645-b6a7-41e3-931b-6e2530c53362", //resource pack
             "version": [
                 0,
                 0,
-                1
+                2
             ]
         }
     ]
