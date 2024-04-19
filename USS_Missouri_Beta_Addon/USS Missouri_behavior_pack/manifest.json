@@ -1,23 +1,23 @@
 {
     "format_version": 1,
     "header": {
-        "description": "§2Model Missouri by HerodrinePro124; Mark12,Borfor40mm model by Creator Crafter321 by §4HerodrinePro124",
-        "min_engine_version": [
-            1,
-            8,
-            0
-        ],
         "name": "§9USS §1Missouri",
         "uuid": "759cccb4-ad47-42f8-baff-bf8fa27ac299",
         "version": [
             0,
             0,
-            1
+            2
+        ],
+        "description": "§2Model Missouri by HerodrinePro124; Mark12,Borfor40mm model by Creator Crafter321 by §4HerodrinePro124",
+        "min_engine_version": [
+            1,
+            8,
+            0
         ]
     },
     "modules": [
         {
-            "description": "§2Model Missouri by HerodrinePro124; Mark12,Borfor40mm model by Creator Crafter321 by §4HerodrinePro124",
+            "description": "Behavior pack for §9USS §1Missouri addon.",
             "type": "data",
             "uuid": "1e6f6dd6-f3a4-4b70-b526-00550e29427a",
             "version": [
