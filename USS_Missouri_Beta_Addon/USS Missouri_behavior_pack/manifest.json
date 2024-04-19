@@ -1,14 +1,4 @@
 {
-    "dependencies": [
-        {
-            "uuid": "83c7b645-b6a7-41e3-931b-6e2530c53362",
-            "version": [
-                0,
-                0,
-                1
-            ]
-        }
-    ],
     "format_version": 1,
     "header": {
         "description": "§2Model Missouri by HerodrinePro124; Mark12,Borfor40mm model by Creator Crafter321 by §4HerodrinePro124",
@@ -30,6 +20,16 @@
             "description": "§2Model Missouri by HerodrinePro124; Mark12,Borfor40mm model by Creator Crafter321 by §4HerodrinePro124",
             "type": "data",
             "uuid": "1e6f6dd6-f3a4-4b70-b526-00550e29427a",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "83c7b645-b6a7-41e3-931b-6e2530c53362",
             "version": [
                 0,
                 0,
