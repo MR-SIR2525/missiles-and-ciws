@@ -18,14 +18,33 @@
                                     {"test": "is_family", "subject": "other", "value": "ghast"},
                                     {"test": "is_family", "subject": "other", "value": "blaze"},
 
-                                //MRxSIR - entities from USS Missouri addon
-                                // each missile seems to be tagged "missileactive" when launched
-                                {
-                                    "any_of": [
-                                    // so any mob with "missileactive" tag will be targeted
-                                    {"test": "has_tag", "subject": "other", "value": "missileactive"}
-                                    ]
-                                }
+                                    // MRxSIR - entities from USS Missouri addon
+                                    // each missile seems to be tagged "missileactive" when launched,
+                                    // so target it only if it's active, aka probably in flight.
+                                    {
+                                        "all_of": [
+                                        {"test": "is_family", "subject": "other", "value": "d24atompaz909"},
+                                        {"test": "has_tag", "subject": "other", "value": "missileactive"}
+                                        ]
+                                    },
+                                    {
+                                        "all_of": [
+                                        {"test": "is_family", "subject": "other", "value": "ironorbitflingpod_wagon"},
+                                        {"test": "has_tag", "subject": "other", "value": "missileactive"}
+                                        ]
+                                    },
+                                    {
+                                        "all_of": [
+                                        {"test": "is_family", "subject": "other", "value": "theregularistmissile"},
+                                        {"test": "has_tag", "subject": "other", "value": "missileactive"}
+                                        ]
+                                    },
+                                    {
+                                        "all_of": [
+                                        {"test": "is_family", "subject": "other", "value": "v2missile"},
+                                        {"test": "has_tag", "subject": "other", "value": "missileactive"}
+                                        ]
+                                    }
                                 ]
                             },
                             "max_dist": 100
