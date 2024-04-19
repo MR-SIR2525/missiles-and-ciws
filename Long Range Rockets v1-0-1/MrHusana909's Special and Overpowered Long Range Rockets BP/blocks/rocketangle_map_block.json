@@ -1,0 +1,74 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "hus909:rocketangle_map_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:explosion_resistance": 1,
+			"minecraft:loot": "loot_tables/rocketcalcupaper_item.json",
+			"minecraft:geometry": "geometry.rocketangle_map",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "rocketangle_map",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:block_light_absorption": 0.1,
+			"minecraft:on_interact": {
+				"event": "interacted"
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					2,
+					16
+				]
+			},
+			"minecraft:on_placed": {
+				"event": "on_place"
+			},
+			"minecraft:rotation": [
+				0,
+				180,
+				0
+			],
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					2,
+					16
+				]
+			}
+		},
+		"events": {
+			"on_place": {
+				"run_command": {
+					"command": [
+						"playsound item.book.page_turn @a ~~~ 1 0.6",
+						"tellraw @p {\"rawtext\":[{\"text\":\"§lPurpose of the paper:\n\nThis paper §ccannot be rotated\n\n§r and§e will always be in the original angle\n\n§rThis paper with §e32 Colored dots §rand a §eSmall paper§r is  §aintented to guide the Rocket operator\"}]}"
+					]
+				}
+			},
+			"interacted": {
+				"run_command": {
+					"command": [
+						"tellraw @p {\"rawtext\":[{\"text\":\"§lRocket Range Guide:§b\n\n\n1 Range = +25 Blocks (150)\n\n2 Range = +50 Blocks (200)\n\n4 Range = +100 Blocks (250)\n\n\n\n§eDefault Range: 1 (125 Blocks)\n\n§cMax Range: 30 (825)\"}]}"
+					]
+				}
+			}
+		}
+	}
+}

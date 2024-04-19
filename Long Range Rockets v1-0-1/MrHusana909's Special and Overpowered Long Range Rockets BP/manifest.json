@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"MrHusana909"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.10"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "§l§b§oMrHusana909's Special and Overpowered Long Range Rockets 1.0.1",
+		"description": "Adds a S.O.L.R.R (Special and Overpowered Long Range Rockets) which can travel up to 800 blocks",
+		"min_engine_version": [
+			1,
+			13,
+			0
+		],
+		"uuid": "b1c1f546-0c8e-4d9c-9920-776f8955fcca",
+		"version": [
+			1,
+			0,
+			1
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "c5875f66-ac14-45f1-a9b9-04866d09577a",
+			"version": [
+				1,
+				0,
+				1
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "f2a985dc-e525-4070-af17-0da4894d5f51",
+			"version": [
+				1,
+				0,
+				1
+			]
+		}
+	]
+}

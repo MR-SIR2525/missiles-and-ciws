@@ -1,0 +1,53 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "MrHusana909's Special and Overpowered Long Range Rockets",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"launchpadbase_side": {
+			"textures": {
+				"path": "textures/blocks/launchpadside"
+			}
+		},
+		"launchpadcore": {
+			"textures": {
+				"path": "textures/blocks/corelaunchpadtop"
+			}
+		},
+		"launchpadbase_top": {
+			"textures": {
+				"path": "textures/blocks/launchpad"
+			}
+		},
+		"rocketangle_map": {
+			"textures": {
+				"path": "textures/blocks/rocketanglemap"
+			}
+		},
+		"rocketsilohatch_core": {
+			"textures": {
+				"path": "textures/blocks/rocketsilohatch_center"
+			}
+		},
+		"rocketsilohatch_side": {
+			"textures": {
+				"path": "textures/blocks/rocketsilohatch_side"
+			}
+		},
+		"rocketsilohatch_base_beamh": {
+			"textures": {
+				"path": "textures/blocks/rocketsilohatch_beam_h"
+			}
+		},
+		"rocketsilohatch_base_beamv": {
+			"textures": {
+				"path": "textures/blocks/rocketsilohatch_beam_v"
+			}
+		},
+		"rocketsilohatch_core_open": {
+			"textures": {
+				"path": "textures/blocks/invisiblock"
+			}
+		}
+	}
+}

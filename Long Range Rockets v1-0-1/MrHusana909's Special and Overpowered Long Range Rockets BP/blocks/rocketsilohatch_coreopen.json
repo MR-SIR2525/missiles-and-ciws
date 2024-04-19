@@ -1,0 +1,70 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "hus909:rocketsilohatch_coreopen"
+		},
+		"components": {
+			"minecraft:entity_collision": {
+				"origin": [
+					0,
+					0,
+					0
+				],
+				"size": [
+					0,
+					0.1,
+					0
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					0,
+					0,
+					0
+				],
+				"size": [
+					0,
+					0.1,
+					0
+				]
+			},
+			"minecraft:map_color": "#FFF8D3",
+			"minecraft:destroy_time": 5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					8,
+					8
+				],
+				"on_tick": {
+					"event": "closehatch"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "rocketsilohatch_core_open",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.invisiblemodel",
+			"minecraft:loot": "loot_tables/empty.json"
+		},
+		"events": {
+			"closehatch": {
+				"run_command": {
+					"command": [
+						"fill ~-2~~-2 ~2~~2 hus909:rocketsilohatch_base 0 keep",
+						"fill ~-2~~ ~2~~ hus909:rocketsilohatch_base_beamv 0 replace hus909:rocketsilohatch_base",
+						"fill ~~~-2 ~~~2 hus909:rocketsilohatch_base_beamh 0 replace hus909:rocketsilohatch_base",
+						"fill ~~~ ~~~ hus909:rocketsilohatch_core",
+						"playsound random.anvil_land @a ~~~ 22 0.5",
+						"playsound random.anvil_land @a ~~~ 22 0.5",
+						"particle hus909:silodoor_open_particle ~~~"
+					]
+				}
+			}
+		}
+	}
+}

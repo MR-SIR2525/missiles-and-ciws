@@ -1,0 +1,40 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "hus909:rocketsilohatch_core"
+		},
+		"components": {
+			"minecraft:destroy_time": 4,
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:explosion_resistance": 5,
+			"minecraft:loot": "loot_tables/rocketsilohatch_item.json",
+			"minecraft:on_placed": {
+				"event": "on_place"
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "destroyed"
+			}
+		},
+		"events": {
+			"on_place": {
+				"run_command": {
+					"command": [
+						"fill ~-2~~-2 ~2~~2 hus909:rocketsilohatch_base 0 keep",
+						"fill ~-2~~ ~2~~ hus909:rocketsilohatch_base_beamv 0 replace hus909:rocketsilohatch_base",
+						"fill ~~~-2 ~~~2 hus909:rocketsilohatch_base_beamh 0 replace hus909:rocketsilohatch_base"
+					]
+				}
+			},
+			"destroyed": {
+				"run_command": {
+					"command": [
+						"fill ~-2~~-2 ~2~~2 air 0 replace hus909:rocketsilohatch_base",
+						"fill ~-2~~ ~2~~ air 0 replace hus909:rocketsilohatch_base_beamv",
+						"fill ~~~-2 ~~~2 air 0 replace hus909:rocketsilohatch_base_beamh"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "hus909:rocketangle_controller4",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "rocketangle_remote"
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"position": [
+							0.7,
+							-0.1,
+							-1.8
+						],
+						"scale": [
+							0.04,
+							0.04,
+							0.04
+						]
+					},
+					"third_person": {
+						"position": [
+							0.5,
+							1,
+							-0.6
+						],
+						"scale": [
+							0.06,
+							0.06,
+							0.06
+						]
+					}
+				}
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "modifyrocket"
+				}
+			},
+			"minecraft:cooldown": {
+				"category": "ender_pearl",
+				"duration": 0.1
+			}
+		},
+		"events": {
+			"modifyrocket": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"playsound random.click @a ~~~ 1 7",
+								"playsound note.bit @a ~~~ 0.9 7",
+								"scoreboard players set @s rketremoteused 40",
+								"scoreboard players add @e[r=20,c=1,tag=!missileactive,family=solrrmissile,scores={solrrid=4}] solrrangle 1",
+								"execute @e[r=20,c=1,tag=!missileactive,family=solrrmissile,scores={solrrid=4}] ~~~ function missile_remote_monitor"
+							]
+						},
+						"condition": "!query.is_sneaking"
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound random.click @a ~~~ 1 7",
+								"playsound note.bit @a ~~~ 0.9 6",
+								"scoreboard players set @s rketremoteused 40",
+								"scoreboard players remove @e[r=20,c=1,tag=!missileactive,family=solrrmissile,scores={solrrid=4}] solrrangle 1",
+								"execute @e[r=20,c=1,tag=!missileactive,family=solrrmissile,scores={solrrid=4}] ~~~ function missile_remote_monitor"
+							]
+						},
+						"condition": "query.is_sneaking"
+					}
+				]
+			}
+		}
+	}
+}

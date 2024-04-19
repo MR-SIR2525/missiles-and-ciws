@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "hus909:theregularistmissile",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/missiles/theregularistmissile"
+			},
+			"geometry": {
+				"default": "geometry.theregularistchoice"
+			},
+			"animations": {
+				"generic": "animation.missiles.generic",
+				"active": "animation.missiles.active",
+				"missile": "controller.animation.husmissile.states",
+				"roll": "animation.missiles.roll"
+			},
+			"scripts": {
+				"animate": [
+					"generic",
+					"missile"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "hus909:v2missile",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/missiles/v2rocket"
+			},
+			"geometry": {
+				"default": "geometry.v2rocket"
+			},
+			"animations": {
+				"generic": "animation.missiles.generic",
+				"active": "animation.missiles.active",
+				"missile": "controller.animation.husmissile.states",
+				"roll": "animation.missiles.roll"
+			},
+			"scripts": {
+				"animate": [
+					"generic",
+					"missile"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

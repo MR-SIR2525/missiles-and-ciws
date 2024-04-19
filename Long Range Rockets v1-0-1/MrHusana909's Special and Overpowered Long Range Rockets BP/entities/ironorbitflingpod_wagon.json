@@ -1,0 +1,656 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "hus909:ironorbitflingpod_wagon",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"active": {
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:conditional_bandwidth_optimization": {
+					"default_values": {
+						"max_optimized_distance": 12,
+						"max_dropped_ticks": 60,
+						"use_motion_prediction_hints": true
+					},
+					"conditional_values": [
+						{
+							"max_optimized_distance": 0,
+							"max_dropped_ticks": 0,
+							"use_motion_prediction_hints": true,
+							"conditional_values": [
+								{
+									"test": "is_moving",
+									"subject": "self",
+									"operator": "==",
+									"value": true
+								}
+							]
+						}
+					]
+				},
+				"minecraft:leashable": {
+					"max_distance": 0,
+					"hard_distance": 0,
+					"soft_distance": 0
+				}
+			},
+			"unactive": {
+				"minecraft:variant": {
+					"value": 0
+				},
+				"minecraft:conditional_bandwidth_optimization": {
+					"conditional_values": {
+						"max_optimized_distance": 0,
+						"max_dropped_ticks": 0,
+						"conditional_values": [
+							{
+								"test": "on_ground",
+								"subject": "self",
+								"value": false
+							}
+						],
+						"use_motion_prediction_hints": true
+					},
+					"default_values": {
+						"max_dropped_ticks": 400,
+						"max_optimized_distance": 6,
+						"use_motion_prediction_hints": true
+					}
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"cooldown": 5,
+							"interact_text": "Insert Memory chip 1",
+							"on_interact": {
+								"event": "insert_chip_1",
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"value": "hus909:rockedidchip_1"
+								}
+							},
+							"use_item": true,
+							"swing": true
+						},
+						{
+							"cooldown": 5,
+							"interact_text": "Insert Memory chip 2",
+							"on_interact": {
+								"event": "insert_chip_2",
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"value": "hus909:rockedidchip_2"
+								}
+							},
+							"use_item": true,
+							"swing": true
+						},
+						{
+							"cooldown": 5,
+							"interact_text": "Insert Memory chip 3",
+							"on_interact": {
+								"event": "insert_chip_3",
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"value": "hus909:rockedidchip_3"
+								}
+							},
+							"use_item": true,
+							"swing": true
+						},
+						{
+							"cooldown": 5,
+							"interact_text": "Insert Memory chip 4",
+							"on_interact": {
+								"event": "insert_chip_4",
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"value": "hus909:rockedidchip_4"
+								}
+							},
+							"use_item": true,
+							"swing": true
+						},
+						{
+							"cooldown": 5,
+							"interact_text": "Insert Memory chip 5",
+							"on_interact": {
+								"event": "insert_chip_5",
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"value": "hus909:rockedidchip_5"
+								}
+							},
+							"use_item": true,
+							"swing": true
+						},
+						{
+							"cooldown": 5,
+							"interact_text": "Insert Memory chip 6",
+							"on_interact": {
+								"event": "insert_chip_6",
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"value": "hus909:rockedidchip_6"
+								}
+							},
+							"use_item": true,
+							"swing": true
+						},
+						{
+							"interact_text": "§cDestroy Missile",
+							"on_interact": {
+								"event": "despawn",
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_equipment",
+											"subject": "other",
+											"value": "minecraft:iron_axe"
+										},
+										{
+											"test": "has_tag",
+											"subject": "other",
+											"value": "removecar"
+										}
+									]
+								}
+							},
+							"swing": true
+						},
+						{
+							"cooldown": 3,
+							"interact_text": "Insert Green color chip",
+							"on_interact": {
+								"event": "insert_colorchip_green",
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"value": "hus909:rketcoloridchip_green"
+								}
+							},
+							"use_item": true,
+							"swing": true
+						},
+						{
+							"cooldown": 3,
+							"interact_text": "Insert Yellow color chip",
+							"on_interact": {
+								"event": "insert_colorchip_yellow",
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"value": "hus909:rketcoloridchip_yellow"
+								}
+							},
+							"use_item": true,
+							"swing": true
+						},
+						{
+							"cooldown": 3,
+							"interact_text": "Insert Red color chip",
+							"on_interact": {
+								"event": "insert_colorchip_red",
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"value": "hus909:rketcoloridchip_red"
+								}
+							},
+							"use_item": true,
+							"swing": true
+						},
+						{
+							"cooldown": 3,
+							"interact_text": "Insert Blue color chip",
+							"on_interact": {
+								"event": "insert_colorchip_blue",
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"value": "hus909:rketcoloridchip_blue"
+								}
+							},
+							"use_item": true,
+							"swing": true
+						},
+						{
+							"cooldown": 2,
+							"interact_text": "Insert Auto-aim chip",
+							"on_interact": {
+								"event": "insert_autoaim_chip",
+								"filters": {
+									"test": "has_equipment",
+									"subject": "other",
+									"value": "hus909:autoaimrocket_chip"
+								}
+							},
+							"use_item": true,
+							"swing": true
+						}
+					]
+				},
+				"minecraft:leashable": {
+					"max_distance": 22,
+					"soft_distance": 0,
+					"hard_distance": 22
+				}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.4,
+				"height": 1.2
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_damage",
+										"subject": "self",
+										"value": "entity_attack"
+									}
+								]
+							}
+						},
+						"cause": "entity_attack",
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_damage",
+										"subject": "self",
+										"value": "fire_tick"
+									}
+								]
+							}
+						},
+						"cause": "fire_tick",
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_damage",
+										"subject": "self",
+										"value": "projectile"
+									}
+								]
+							}
+						},
+						"cause": "projectile",
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_damage",
+										"subject": "self",
+										"value": "fall"
+									}
+								]
+							}
+						},
+						"cause": "fall",
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_damage",
+										"subject": "self",
+										"value": "block_explosion"
+									}
+								]
+							}
+						},
+						"cause": "block_explosion",
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_damage",
+										"subject": "self",
+										"value": "entity_explosion"
+									}
+								]
+							}
+						},
+						"cause": "entity_explosion",
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_damage",
+										"subject": "self",
+										"value": "fly_into_wall"
+									}
+								]
+							}
+						},
+						"cause": "fly_into_wall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"solrrmissile",
+					"transportrocket"
+				]
+			},
+			"minecraft:health": {
+				"value": 100
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": true,
+				"name_actions": [
+					{
+						"on_named": {
+							"event": "prototype"
+						},
+						"name_filter": "Prototype"
+					}
+				]
+			},
+			"minecraft:tick_world": {
+				"never_despawn": true,
+				"radius": 2
+			},
+			"minecraft:scale": {
+				"value": 1.95
+			},
+			"minecraft:knockback_resistance": {
+				"value": 5
+			},
+			"minecraft:rideable": {
+				"seat_count": 3,
+				"family_types": [
+					"villager",
+					"waifu",
+					"zombie",
+					"piglin",
+					"piglin_brute",
+					"pillager",
+					"vindicator",
+					"evocation_illager",
+					"skeleton",
+					"player",
+					"breeze",
+					"blaze",
+					"zombie_pigman",
+					"wandering_trader",
+					"husk",
+					"drowned",
+					"witch",
+					"cow",
+					"mushroomcow",
+					"horse",
+					"donkey",
+					"mule",
+					"skeletonhorse",
+					"creeper",
+					"camel",
+					"hoglin",
+					"zoglin"
+				],
+				"interact_text": "Get in the Rocket",
+				"crouching_skip_interact": true,
+				"rider_can_interact": true,
+				"seats": [
+					{
+						"position": [
+							0,
+							0,
+							0
+						]
+					},
+					{
+						"position": [
+							0,
+							0,
+							0
+						]
+					},
+					{
+						"position": [
+							0,
+							0,
+							0
+						]
+					}
+				]
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"detonate": {
+				"run_command": {
+					"command": [
+						"particle hus909:rocketscrew_snap ~ ~ ~",
+						"particle hus909:rocketplate_snap ~ ~ ~",
+						"particle hus909:rocketframe_snap ~ ~ ~",
+						"execute @a[r=20]~~~ playsound random.break @s ~~~ 14 0.3",
+						"execute @a[r=20]~~~ playsound random.break @s ~~~ 14 0.3",
+						"playsound random.explode @a ~~~ 11 8",
+						"event entity @e[family=missilemarker,r=26] despawn",
+						"particle minecraft:knockback_roar_particle",
+						"clear @a[r=1.6] hus909:rocketbinding_belt"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"active": {
+				"add": {
+					"component_groups": [
+						"active"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tag @s add missileactive",
+						"function missile_final_angle",
+						"function ejectchips",
+						"function ejectcolorchips",
+						"tag @s add rocketfueled"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"run_command": {
+					"command": [
+						"tp @s ~~~ 0 0",
+						"scoreboard players add @s solrrangle 0",
+						"scoreboard players set @s solrrrange 1",
+						"tag @s add detonateoncontact_ground",
+						"tag @s add specialmissile"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"unactive"
+					]
+				}
+			},
+			"prototype": {
+				"run_command": {
+					"command": [
+						"tag @s add missilefailure"
+					]
+				}
+			},
+			"intercept": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				},
+				"run_command": {
+					"command": [
+						"particle hus909:regularmissile_explosion ~~-2~",
+						"playsound random.explode @a ~~~ 10 1",
+						"function rocket_intercepted"
+					]
+				}
+			},
+			"insert_chip_1": {
+				"run_command": {
+					"command": [
+						"function ejectchips",
+						"title @a[r=7] actionbar §aInserted ID Chip 1",
+						"scoreboard players set @s solrrid 1",
+						"playsound camera.take_picture @a ~~~ 1 6"
+					]
+				}
+			},
+			"insert_chip_2": {
+				"run_command": {
+					"command": [
+						"function ejectchips",
+						"title @a[r=7] actionbar §aInserted ID Chip 2",
+						"scoreboard players set @s solrrid 2",
+						"playsound camera.take_picture @a ~~~ 1 6"
+					]
+				}
+			},
+			"insert_chip_3": {
+				"run_command": {
+					"command": [
+						"function ejectchips",
+						"title @a[r=7] actionbar §aInserted ID Chip 3",
+						"scoreboard players set @s solrrid 3",
+						"playsound camera.take_picture @a ~~~ 1 6"
+					]
+				}
+			},
+			"insert_chip_4": {
+				"run_command": {
+					"command": [
+						"function ejectchips",
+						"title @a[r=7] actionbar §aInserted ID Chip 4",
+						"scoreboard players set @s solrrid 4",
+						"playsound camera.take_picture @a ~~~ 1 6"
+					]
+				}
+			},
+			"insert_chip_5": {
+				"run_command": {
+					"command": [
+						"function ejectchips",
+						"title @a[r=7] actionbar §aInserted ID Chip 5",
+						"scoreboard players set @s solrrid 5",
+						"playsound camera.take_picture @a ~~~ 1 6"
+					]
+				}
+			},
+			"insert_chip_6": {
+				"run_command": {
+					"command": [
+						"function ejectchips",
+						"title @a[r=7] actionbar §aInserted ID Chip 6",
+						"scoreboard players set @s solrrid 6",
+						"playsound camera.take_picture @a ~~~ 1 6"
+					]
+				}
+			},
+			"insert_colorchip_green": {
+				"run_command": {
+					"command": [
+						"function ejectcolorchips",
+						"title @a[r=7] actionbar Inserted §aGreen Color Chip",
+						"scoreboard players set @s solrrcolorid 1",
+						"playsound camera.take_picture @a ~~~ 1 5"
+					]
+				}
+			},
+			"insert_colorchip_yellow": {
+				"run_command": {
+					"command": [
+						"function ejectcolorchips",
+						"title @a[r=7] actionbar Inserted §eYellow Color Chip",
+						"scoreboard players set @s solrrcolorid 2",
+						"playsound camera.take_picture @a ~~~ 1 5"
+					]
+				}
+			},
+			"insert_colorchip_red": {
+				"run_command": {
+					"command": [
+						"function ejectcolorchips",
+						"title @a[r=7] actionbar Inserted §cRed Color Chip",
+						"scoreboard players set @s solrrcolorid 3",
+						"playsound camera.take_picture @a ~~~ 1 5"
+					]
+				}
+			},
+			"insert_colorchip_blue": {
+				"run_command": {
+					"command": [
+						"function ejectcolorchips",
+						"title @a[r=7] actionbar Inserted §1Blue Color Chip",
+						"scoreboard players set @s solrrcolorid 4",
+						"playsound camera.take_picture @a ~~~ 1 5"
+					]
+				}
+			},
+			"insert_autoaim_chip": {
+				"run_command": {
+					"command": [
+						"title @a[r=7] actionbar §bInserted Auto-aim Chip",
+						"scoreboard players set @s solrrautoid 1",
+						"playsound camera.take_picture @a ~~~ 1 5",
+						"tag @s add rocketautoaim"
+					]
+				}
+			}
+		}
+	}
+}

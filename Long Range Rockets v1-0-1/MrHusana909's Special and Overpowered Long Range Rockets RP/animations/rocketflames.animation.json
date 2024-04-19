@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.rocketflames.power_1": {
+			"loop": true,
+			"animation_length": 0.25,
+			"bones": {
+				"flash": {
+					"scale": [
+						1,
+						1.6,
+						1
+					]
+				},
+				"flash2": {
+					"scale": [
+						1,
+						1.1,
+						1
+					]
+				},
+				"flash3": {
+					"scale": [
+						1,
+						1.1,
+						1
+					]
+				}
+			}
+		}
+	}
+}

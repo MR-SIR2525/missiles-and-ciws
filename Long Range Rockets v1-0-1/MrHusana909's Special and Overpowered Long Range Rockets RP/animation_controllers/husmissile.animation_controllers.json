@@ -1,0 +1,46 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.husmissile.states": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"active": "query.variant==1"
+						}
+					],
+					"blend_transition": 0.5
+				},
+				"active": {
+					"animations": [
+						"active"
+					],
+					"transitions": [
+						{
+							"default": "query.variant==0"
+						},
+						{
+							"on_air": "query.variant==1&&!query.is_on_ground"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"on_air": {
+					"animations": [
+						"roll",
+						"active"
+					],
+					"transitions": [
+						{
+							"active": "query.variant==1&&query.is_on_ground"
+						},
+						{
+							"default": "query.variant==0"
+						}
+					],
+					"blend_transition": 0.6
+				}
+			}
+		}
+	}
+}

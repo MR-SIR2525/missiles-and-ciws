@@ -1,0 +1,308 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.v2rocket",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 7,
+				"visible_bounds_offset": [
+					0,
+					2.5,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "missileanchor",
+					"pivot": [
+						0,
+						3,
+						0
+					]
+				},
+				{
+					"name": "missile",
+					"parent": "missileanchor",
+					"pivot": [
+						0,
+						3,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-7,
+								8,
+								-7
+							],
+							"size": [
+								14,
+								44,
+								14
+							],
+							"uv": [
+								55,
+								45
+							]
+						},
+						{
+							"origin": [
+								-6,
+								52,
+								-6
+							],
+							"size": [
+								12,
+								10,
+								12
+							],
+							"uv": [
+								35,
+								0
+							]
+						},
+						{
+							"origin": [
+								-5,
+								62,
+								-5
+							],
+							"size": [
+								10,
+								7,
+								10
+							],
+							"uv": [
+								0,
+								76
+							]
+						},
+						{
+							"origin": [
+								-4,
+								69,
+								-4
+							],
+							"size": [
+								8,
+								6,
+								8
+							],
+							"uv": [
+								84,
+								0
+							]
+						},
+						{
+							"origin": [
+								-3,
+								75,
+								-3
+							],
+							"size": [
+								6,
+								5,
+								6
+							],
+							"uv": [
+								25,
+								94
+							]
+						},
+						{
+							"origin": [
+								-2,
+								80,
+								-2
+							],
+							"size": [
+								4,
+								3,
+								4
+							],
+							"uv": [
+								0,
+								24
+							]
+						},
+						{
+							"origin": [
+								-1,
+								83,
+								-1
+							],
+							"size": [
+								2,
+								2,
+								2
+							],
+							"uv": [
+								17,
+								24
+							]
+						},
+						{
+							"origin": [
+								-6,
+								4,
+								-6
+							],
+							"size": [
+								12,
+								4,
+								12
+							],
+							"uv": [
+								0,
+								59
+							]
+						},
+						{
+							"origin": [
+								0,
+								0,
+								-17
+							],
+							"size": [
+								0,
+								24,
+								34
+							],
+							"pivot": [
+								0,
+								9,
+								0
+							],
+							"rotation": [
+								0,
+								45,
+								0
+							],
+							"uv": [
+								0,
+								0
+							]
+						},
+						{
+							"origin": [
+								0,
+								0,
+								-17
+							],
+							"size": [
+								0,
+								24,
+								34
+							],
+							"pivot": [
+								0,
+								9,
+								0
+							],
+							"rotation": [
+								0,
+								-45,
+								0
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					],
+					"locators": {
+						"lead": [
+							0,
+							83,
+							0
+						]
+					}
+				},
+				{
+					"name": "flash",
+					"parent": "missile",
+					"pivot": [
+						0,
+						3,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-5,
+								-3,
+								-5
+							],
+							"size": [
+								10,
+								8,
+								10
+							],
+							"uv": [
+								69,
+								23
+							]
+						}
+					]
+				},
+				{
+					"name": "flash2",
+					"parent": "flash",
+					"pivot": [
+						0,
+						3,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-4,
+								-10,
+								-4
+							],
+							"size": [
+								8,
+								15,
+								8
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "flash3",
+					"parent": "flash2",
+					"pivot": [
+						0,
+						3,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								-15,
+								-3
+							],
+							"size": [
+								6,
+								20,
+								6
+							],
+							"uv": [
+								0,
+								94
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "hus909:putrocketid1"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "hus909:rockedaccesscard_1"
+			},
+			{
+				"item": "hus909:rocketdetonation_device_off"
+			}
+		],
+		"result": [
+			{
+				"item": "hus909:rocketdetonation_device_id1"
+			}
+		]
+	}
+}

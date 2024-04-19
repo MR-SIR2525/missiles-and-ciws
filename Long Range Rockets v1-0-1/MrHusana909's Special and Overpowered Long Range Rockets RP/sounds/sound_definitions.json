@@ -1,0 +1,23 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"nuke_explosion_near": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/explosionsfx/nukeexplosionnear",
+					"volume": 14
+				}
+			]
+		},
+		"nuke_explosion_far": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/explosionsfx/nukeexplosionfar",
+					"volume": 13
+				}
+			]
+		}
+	}
+}

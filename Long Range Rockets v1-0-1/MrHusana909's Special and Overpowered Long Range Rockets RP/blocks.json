@@ -1,0 +1,58 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"hus909:rocketlaunchpadbase": {
+		"textures": {
+			"up": "launchpadbase_top",
+			"side": "launchpadbase_side",
+			"down": "launchpadbase_top"
+		},
+		"sound": "lantern"
+	},
+	"hus909:rocketlaunchpadcore": {
+		"textures": {
+			"up": "launchpadcore",
+			"side": "launchpadbase_side",
+			"down": "launchpadbase_top"
+		},
+		"sound": "lantern"
+	},
+	"hus909:rocketangle_map_block": {
+		"sound": "azalea_leaves"
+	},
+	"hus909:rocketsilohatch_core": {
+		"textures": {
+			"up": "rocketsilohatch_core",
+			"side": "rocketsilohatch_side",
+			"down": "launchpadbase_top"
+		},
+		"sound": "lantern"
+	},
+	"hus909:rocketsilohatch_base": {
+		"textures": {
+			"up": "launchpadbase_top",
+			"side": "rocketsilohatch_side",
+			"down": "launchpadbase_top"
+		},
+		"sound": "lantern"
+	},
+	"hus909:rocketsilohatch_base_beamh": {
+		"textures": {
+			"up": "rocketsilohatch_base_beamh",
+			"side": "rocketsilohatch_side",
+			"down": "launchpadbase_top"
+		},
+		"sound": "lantern"
+	},
+	"hus909:rocketsilohatch_base_beamv": {
+		"textures": {
+			"up": "rocketsilohatch_base_beamv",
+			"side": "rocketsilohatch_side",
+			"down": "launchpadbase_top"
+		},
+		"sound": "lantern"
+	}
+}

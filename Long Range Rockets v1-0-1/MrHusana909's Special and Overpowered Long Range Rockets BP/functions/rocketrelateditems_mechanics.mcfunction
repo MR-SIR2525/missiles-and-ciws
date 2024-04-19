@@ -1,0 +1,10 @@
+execute @e[family=solrrmissile,tag=missileactive,tag=!missilefall,scores={solrrdura=70..130}] ~ ~ ~ detect ~ ~13.5 ~ hus909:rocketsilohatch_core 0 playsound random.anvil_land @a ~~14~ 22 0.5
+execute @e[family=solrrmissile,tag=missileactive,tag=!missilefall,scores={solrrdura=70..130}] ~ ~ ~ detect ~ ~13 ~ hus909:rocketsilohatch_core 0 playsound random.anvil_land @a ~~14~ 22 0.5
+execute @e[family=solrrmissile,tag=missileactive,tag=!missilefall,scores={solrrdura=70..130}] ~ ~ ~ detect ~ ~12 ~ hus909:rocketsilohatch_core 0 playsound random.anvil_land @a ~~14~ 22 0.5
+execute @e[family=solrrmissile,tag=missileactive,tag=!missilefall,scores={solrrdura=70..130}] ~ ~ ~ detect ~ ~14 ~ hus909:rocketsilohatch_core 0 particle hus909:silodoor_open_particle ~~14~
+execute @e[family=solrrmissile,tag=missileactive,tag=!missilefall,scores={solrrdura=70..130}] ~ ~ ~ detect ~ ~13 ~ hus909:rocketsilohatch_core 0 particle hus909:silodoor_open_particle ~~13
+execute @e[family=solrrmissile,tag=missileactive,tag=!missilefall,scores={solrrdura=70..130}] ~ ~ ~ detect ~ ~12 ~ hus909:rocketsilohatch_core 0 particle hus909:silodoor_open_particle ~~12~
+execute @e[family=solrrmissile,tag=missileactive,tag=!missilefall,scores={solrrdura=70..130}] ~ ~ ~ fill ~-2~12~-2~2~14~2 air 0 replace hus909:rocketsilohatch_base
+execute @e[family=solrrmissile,tag=missileactive,tag=!missilefall,scores={solrrdura=70..130}] ~ ~ ~ fill ~-2~12~-2~2~14~2 air 0 replace hus909:rocketsilohatch_base_beamh
+execute @e[family=solrrmissile,tag=missileactive,tag=!missilefall,scores={solrrdura=70..130}] ~ ~ ~ fill ~-2~12~-2~2~14~2 air 0 replace hus909:rocketsilohatch_base_beamv
+execute @e[family=solrrmissile,tag=missileactive,tag=!missilefall,scores={solrrdura=70..130}] ~ ~ ~ fill ~-2~12~-2~2~14~2 hus909:rocketsilohatch_coreopen 0 replace hus909:rocketsilohatch_core

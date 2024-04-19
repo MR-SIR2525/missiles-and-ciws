@@ -1,0 +1,53 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "hus909:ironorbitfpodblueprint",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "utilrocketblueprint"
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"position": [
+							0.7,
+							-0.1,
+							-1.8
+						],
+						"scale": [
+							0.04,
+							0.04,
+							0.04
+						]
+					},
+					"third_person": {
+						"position": [
+							0.5,
+							1,
+							-0.6
+						],
+						"scale": [
+							0.06,
+							0.06,
+							0.06
+						]
+					}
+				}
+			},
+			"minecraft:creative_category": {
+				"parent": "equipment"
+			},
+			"minecraft:entity_placer": {
+				"use_on": [
+					"hus909:rocketlaunchpadcore"
+				],
+				"entity": "hus909:ironorbitflingpod_wagon"
+			}
+		},
+		"events": {}
+	}
+}

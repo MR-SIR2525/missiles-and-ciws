@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "hus909:d24atompaz909",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/missiles/d24atompaz909"
+			},
+			"geometry": {
+				"default": "geometry.d24atompaz909"
+			},
+			"animations": {
+				"generic": "animation.missiles.generic",
+				"active": "animation.missiles.activelarge",
+				"missile": "controller.animation.husmissile.states",
+				"roll": "animation.missiles.roll"
+			},
+			"scripts": {
+				"animate": [
+					"generic",
+					"missile"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "hus909:ironorbitflingpod_wagon",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/missiles/ironflingpod/wagon23c"
+			},
+			"geometry": {
+				"default": "geometry.ironflingpod_passage"
+			},
+			"animations": {
+				"generic": "animation.missiles.generic",
+				"active": "animation.missiles.active",
+				"missile": "controller.animation.husmissile.states",
+				"roll": "animation.missiles.roll"
+			},
+			"scripts": {
+				"animate": [
+					"generic",
+					"missile"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

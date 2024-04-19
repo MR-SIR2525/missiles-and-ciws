@@ -1,0 +1,28 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "hus909:rocketcoordautocalculator",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/autocalcusentry"
+			},
+			"geometry": {
+				"default": "geometry.autocalcusentry"
+			},
+			"animations": {
+				"generic": "animation.autocalcusentry.general"
+			},
+			"scripts": {
+				"animate": [
+					"generic"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

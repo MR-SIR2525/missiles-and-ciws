@@ -1,0 +1,149 @@
+{
+	"resource_pack_name": "MrHusana909's Special and Overpowered Long Range Rockets",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"rocketidchip": {
+			"textures": [
+				"textures/items/rocketidchip"
+			]
+		},
+		"rocketrange_remote": {
+			"textures": [
+				"textures/items/rangecontroller"
+			]
+		},
+		"rocketangle_remote": {
+			"textures": [
+				"textures/items/anglecontroller"
+			]
+		},
+		"rocketdetonation_device": {
+			"textures": [
+				"textures/items/ignitiondevice"
+			]
+		},
+		"rocketlaunchpad": {
+			"textures": [
+				"textures/items/launchpad_item"
+			]
+		},
+		"rocketaccesscard": {
+			"textures": [
+				"textures/items/missileaccess_card"
+			]
+		},
+		"rocketdetonation_device_active": {
+			"textures": [
+				"textures/items/ignitiondevice_active"
+			]
+		},
+		"rocketblueprint": {
+			"textures": [
+				"textures/items/missileblueprint"
+			]
+		},
+		"rocketcalcupapers": {
+			"textures": [
+				"textures/items/rocketangle_map"
+			]
+		},
+		"rocketcoloridchip_red": {
+			"textures": [
+				"textures/items/rketcolortag/colortag_rocket_chip_red"
+			]
+		},
+		"rocketcoloridchip_yellow": {
+			"textures": [
+				"textures/items/rketcolortag/colortag_rocket_chip_yellow"
+			]
+		},
+		"rocketcoloridchip_green": {
+			"textures": [
+				"textures/items/rketcolortag/colortag_rocket_chip_green"
+			]
+		},
+		"rocketcoloridchip_blue": {
+			"textures": [
+				"textures/items/rketcolortag/colortag_rocket_chip_blue"
+			]
+		},
+		"rocketcoloridchip_cyan": {
+			"textures": [
+				"textures/items/rketcolortag/colortag_rocket_chip_cyan"
+			]
+		},
+		"rocketcoloridchip_magenta": {
+			"textures": [
+				"textures/items/rketcolortag/colortag_rocket_chip_magenta"
+			]
+		},
+		"rocketautocalcuidchip": {
+			"textures": [
+				"textures/items/calcuaim_rocket_chip"
+			]
+		},
+		"rocketautocalcuremote": {
+			"textures": [
+				"textures/items/calcuaim_chip_remote"
+			]
+		},
+		"destructiverocketblueprint": {
+			"textures": [
+				"textures/items/destructiverocket_blueprint"
+			]
+		},
+		"utilrocketblueprint": {
+			"textures": [
+				"textures/items/utilrocket_blueprint"
+			]
+		},
+		"rketmarkingdevice_red": {
+			"textures": [
+				"textures/items/rketmarker/rocketmarking_device_red"
+			]
+		},
+		"rketmarkingdevice_yellow": {
+			"textures": [
+				"textures/items/rketmarker/rocketmarking_device_yellow"
+			]
+		},
+		"rketmarkingdevice_green": {
+			"textures": [
+				"textures/items/rketmarker/rocketmarking_device_green"
+			]
+		},
+		"rketmarkingdevice_blue": {
+			"textures": [
+				"textures/items/rketmarker/rocketmarking_device_blue"
+			]
+		},
+		"rketmarkingdevice_cyan": {
+			"textures": [
+				"textures/items/rketmarker/rocketmarking_device_cyan"
+			]
+		},
+		"rketmarkingdevice_magenta": {
+			"textures": [
+				"textures/items/rketmarker/rocketmarking_device_magenta"
+			]
+		},
+		"rocketcoordautocalcu": {
+			"textures": [
+				"textures/items/rocketaimautocalcu"
+			]
+		},
+		"rocketsilohatch_item": {
+			"textures": "textures/items/rocketsilohatch"
+		},
+		"rocketbinding_belt": {
+			"textures": [
+				"textures/items/rocketbinder_belt"
+			]
+		},
+		"rocketbinding_remote": {
+			"textures": [
+				"textures/items/rocketbinder_remote"
+			]
+		}
+	}
+}

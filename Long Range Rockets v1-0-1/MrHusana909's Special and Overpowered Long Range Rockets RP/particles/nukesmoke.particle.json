@@ -1,0 +1,119 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "hus909:nukesmoke",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/particle/campfire_smoke"
+			}
+		},
+		"curves": {
+			"variable.spread": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [
+					0,
+					6.34,
+					-3.57,
+					0,
+					0,
+					0,
+					0,
+					59.94,
+					0,
+					0,
+					-58.99,
+					0
+				]
+			},
+			"variable.thickness": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [
+					6.88,
+					1,
+					1,
+					11.81
+				]
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 100,
+				"max_particles": 1000
+			},
+			"minecraft:emitter_lifetime_looping": {
+				"active_time": 60
+			},
+			"minecraft:emitter_shape_disc": {
+				"radius": 12,
+				"direction": [
+					0,
+					"math.random(-24,-25)",
+					0
+				]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 9.7
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "math.random(0,360)",
+				"rotation_rate": "math.random(-360,360)"
+			},
+			"minecraft:particle_initial_speed": 1,
+			"minecraft:particle_motion_dynamic": {
+				"linear_acceleration": [
+					"math.random(3,-3)*variable.spread",
+					"math.random(2,12)",
+					"math.random(3,-3)*variable.spread"
+				],
+				"linear_drag_coefficient": "math.random(-0.3,0.6)",
+				"rotation_drag_coefficient": 1
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": [
+					"math.random(8,6)*variable.thickness",
+					"math.random(8,6)*variable.thickness"
+				],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 192,
+					"flipbook": {
+						"base_UV": [
+							1,
+							0
+						],
+						"size_UV": [
+							16,
+							16
+						],
+						"step_UV": [
+							0,
+							16
+						],
+						"frames_per_second": 10,
+						"max_frame": 8,
+						"loop": true
+					}
+				}
+			},
+			"minecraft:particle_appearance_lighting": {},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_random_2 ",
+					"gradient": {
+						"0.0": "#FF4C4C4C",
+						"0.72": "#FF676767",
+						"1.22": "#FF828282",
+						"1.58": "#FF5B5B5B",
+						"2.0": "#FF808080"
+					}
+				}
+			}
+		}
+	}
+}

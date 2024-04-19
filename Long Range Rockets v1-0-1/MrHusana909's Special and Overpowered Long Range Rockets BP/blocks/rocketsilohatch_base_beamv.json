@@ -1,0 +1,15 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "hus909:rocketsilohatch_base_beamv"
+		},
+		"components": {
+			"minecraft:destroy_time": 50,
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:explosion_resistance": 5,
+			"minecraft:loot": "loot_tables/empty.json"
+		},
+		"events": {}
+	}
+}

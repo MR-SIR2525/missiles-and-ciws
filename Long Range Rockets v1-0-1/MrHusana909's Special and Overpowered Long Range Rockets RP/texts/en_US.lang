@@ -1,0 +1,68 @@
+entity.hus909:v2missile.name=§lV2 Rocket
+item.hus909:v2rocketblueprint=§lV2 (Rocket)
+
+entity.hus909:theregularistmissile.name=§l§eThe Regularist's Choice
+item.hus909:regularistrocketblueprint=§l§eThe Regularist's Choice (Rocket)
+
+entity.hus909:d24atompaz909.name=§l§aD24-Atompaz909
+item.hus909:d24atompazrocketblueprint=§l§aD24-Atompaz909 §c(Destructive Rocket)
+
+entity.hus909:ironorbitflingpod_wagon.name=§l§9Iron Orbit Fling Pod (23C-Wagon)
+item.hus909:ironorbitfpodblueprint=§l§9Iron Orbit Fling Pod (23C-Wagon) §a(Utility Rocket)
+
+item.hus909:rocketbinding_belt=§l§6Rocket Binding Belt
+item.hus909:launchpad_item=§lRocket Launchpad
+item.hus909:rocketcalcpaper_item=§eRocket Calculation Papers
+item.hus909:rocketsilohatch_item=§lRocket Silo Hatch
+
+item.hus909:rockedidchip_1=§l§2SOLR Rocket Identification Chip §r§a(1)
+item.hus909:rockedidchip_2=§l§2SOLR Rocket Identification Chip §r§a(2)
+item.hus909:rockedidchip_3=§l§2SOLR Rocket Identification Chip §r§a(3)
+item.hus909:rockedidchip_4=§l§2SOLR Rocket Identification Chip §r§a(4)
+item.hus909:rockedidchip_5=§l§2SOLR Rocket Identification Chip §r§a(5)
+item.hus909:rockedidchip_6=§l§2SOLR Rocket Identification Chip §r§a(6)
+
+item.hus909:rockedaccesscard_1=§l§6SOLR Rocket Access Card §r§a(1)
+item.hus909:rockedaccesscard_2=§l§6SOLR Rocket Access Card §r§a(2)
+item.hus909:rockedaccesscard_3=§l§6SOLR Rocket Access Card §r§a(3)
+item.hus909:rockedaccesscard_4=§l§6SOLR Rocket Access Card §r§a(4)
+item.hus909:rockedaccesscard_5=§l§6SOLR Rocket Access Card §r§a(5)
+item.hus909:rockedaccesscard_6=§l§6SOLR Rocket Access Card §r§a(6)
+
+item.hus909:rketcoloridchip_green=§l§9SOLR Rocket Color Identification Chip §r§a(Green)
+item.hus909:rketcoloridchip_blue=§l§9SOLR Rocket Color Identification Chip §r§1(Blue)
+item.hus909:rketcoloridchip_yellow=§l§9SOLR Rocket Color Identification Chip §r§e(Yellow)
+item.hus909:rketcoloridchip_red=§l§9SOLR Rocket Color Identification Chip §r§c(Red)
+
+item.hus909:rocketcoordautocalculator_item=§l§a[SOLR Rocket Coord Autocalculator]
+item.hus909:rocketautoaimvalue_remote=§l§e[SOLR Rocket Autoaim Marker Remote]
+
+item.hus909:autoaimrocket_chip=§l§b[SOLR Rocket Autoaim Chip]
+
+item.hus909:rketmarker_blue=§l[SOLR Rocket Marking Device] §r§1(Blue)
+item.hus909:rketmarker_green=§l[SOLR Rocket Marking Device] §r§a(Green)
+item.hus909:rketmarker_yellow=§l[SOLR Rocket Marking Device] §r§e(Yellow)
+item.hus909:rketmarker_red=§l[SOLR Rocket Marking Device] §r§c(Red)
+
+item.hus909:rocketangle_controller1=§lSOLR Rocket Angle Controller §r§a(1)
+item.hus909:rocketangle_controller2=§lSOLR Rocket Angle Controller §r§a(2)
+item.hus909:rocketangle_controller3=§lSOLR Rocket Angle Controller §r§a(3)
+item.hus909:rocketangle_controller4=§lSOLR Rocket Angle Controller §r§a(4)
+item.hus909:rocketangle_controller5=§lSOLR Rocket Angle Controller §r§a(5)
+item.hus909:rocketangle_controller6=§lSOLR Rocket Angle Controller §r§a(6)
+
+item.hus909:rocketrange_controller1=§l§bSOLR Rocket Range Controller §r§a(1)
+item.hus909:rocketrange_controller2=§l§bSOLR Rocket Range Controller §r§a(2)
+item.hus909:rocketrange_controller3=§l§bSOLR Rocket Range Controller §r§a(3)
+item.hus909:rocketrange_controller4=§l§bSOLR Rocket Range Controller §r§a(4)
+item.hus909:rocketrange_controller5=§l§bSOLR Rocket Range Controller §r§a(5)
+item.hus909:rocketrange_controller6=§l§bSOLR Rocket Range Controller §r§a(6)
+
+item.hus909:rocketdetonation_device_off=§l§cSOLR Rocket Ignition Device §r§c(No Card)
+
+item.hus909:rocketdetonation_device_id1=§l§cSOLR Rocket Ignition Device §r§a(1)
+item.hus909:rocketdetonation_device_id2=§l§cSOLR Rocket Ignition Device §r§a(2)
+item.hus909:rocketdetonation_device_id3=§l§cSOLR Rocket Ignition Device §r§a(3)
+item.hus909:rocketdetonation_device_id4=§l§cSOLR Rocket Ignition Device §r§a(4)
+item.hus909:rocketdetonation_device_id5=§l§cSOLR Rocket Ignition Device §r§a(5)
+item.hus909:rocketdetonation_device_id6=§l§cSOLR Rocket Ignition Device §r§a(6)
