@@ -1,5 +1,5 @@
 {
-    "format_version": 1,
+    "format_version": 2,
     "header": {
         "name": "§9USS §1Missouri",
         "uuid": "83c7b645-b6a7-41e3-931b-6e2530c53362",
@@ -18,11 +18,7 @@
     "dependencies": [
         {
             "uuid": "759cccb4-ad47-42f8-baff-bf8fa27ac299", //the BP
-            "version": [
-                0,
-                0,
-                2
-            ]
+            "version": [0, 0, 2]
         }
     ],
     "subpacks": [
