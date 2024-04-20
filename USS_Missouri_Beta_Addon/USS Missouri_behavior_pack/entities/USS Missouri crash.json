@@ -6,12 +6,14 @@
                 "height": 1.5,
                 "width": 2
             },
-            "minecraft:damage_sensor": [
-                {
-                    "cause": "all",
-                    "deals_damage": false
-                }
-            ],
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
             "minecraft:physics": {},
             "minecraft:pushable": {
                 "is_pushable": true,
