@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.13.0",
   "minecraft:entity": {
     "component_groups": {
       "bofor:shoot_start": {
@@ -236,7 +236,7 @@
       }
     },
     "components": {
-      "minecraft:movement.basic": {}, //added by MRxSIR to silence an error
+      // "minecraft:movement.basic": {}, //added by MRxSIR to silence an error
       "minecraft:behavior.hurt_by_target": {
         "entity_types": {
           "filters": {
