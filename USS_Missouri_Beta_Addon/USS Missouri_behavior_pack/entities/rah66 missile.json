@@ -108,12 +108,14 @@
                 "height": 0.1,
                 "width": 0.1
             },
-            "minecraft:damage_sensor": [
-                {
-                    "cause": "all",
-                    "deals_damage": false
-                }
-            ],
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
             "minecraft:despawn": {
                 "despawn_from_distance": {}
             },
