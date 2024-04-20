@@ -1,0 +1,18 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:item": {
+      "description": {
+        "identifier": "us:phalanx_spawn_egg",
+        "category": "Misc",
+        "is_experimental": false,
+        "stack_by_data": true,
+        "icon": "textures/items/phalanx_spawn_egg.jpg"
+      },
+      "components": {
+        "minecraft:icon": "textures/items/phalanx_spawn_egg.jpg",
+        "minecraft:spawn_egg": {
+          "entity": "us:phalanx_turret"
+        }
+      }
+    }
+}
