@@ -1,0 +1,119 @@
+[Molang][error]-Test CIWS | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour/animation_controllers/inwater.json | animation_controllers | controller.animation.406mm_inwater | states | inwater_2 | transitions | inwater_2 | variable.delay406mmbeh = 0.1; variable.previous_time406mmbeh = query.life_time; return | Error: complex expressions (contains either '=' or ';') must end with a ';'
+
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:rah66_crash | minecraft:entity | components | minecraft:damage_sensor |  | child '' not valid here.
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:rah66_bullet | minecraft:entity | components | minecraft:damage_sensor |  | child '' not valid here.
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:phalanx_turret | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:phalanx_turret | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell2
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:phalanx_turret | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell3
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:phalanx_turret | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark12_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:phalanx_turret | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:phalanx_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:phalanx_turret | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:bofor_shell
+
+[Actor][warning]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:phalanx_shell | The component minecraft:damage_sensor will not be added to this entity as it won't work unless the format version is 1.15 or greater.
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell2
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell3
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark12_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:phalanx_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:bofor_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell2
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell3
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark12_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:phalanx_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:bofor_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell2
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell3
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark12_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:phalanx_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | components | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:bofor_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell2
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark7_shell3
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:mark12_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:phalanx_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12 | minecraft:entity | component_groups | maingun:ready | minecraft:damage_sensor | triggers | cause | Damage Source not found: us:bofor_shell
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7_shell | minecraft:entity | components | minecraft:damage_sensor |  | child '' not valid here.
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7_shell3 | minecraft:entity | components | minecraft:damage_sensor |  | child '' not valid here.
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark7_shell2 | minecraft:entity | components | minecraft:damage_sensor |  | child '' not valid here.
+
+[Json][error]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:mark12_shell | minecraft:entity | components | minecraft:damage_sensor |  | child '' not valid here.
+
+[Actor][warning]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:bofor_shell | The component minecraft:damage_sensor will not be added to this entity as it won't work unless the format version is 1.15 or greater.
+
+[Localization][warning]-Line: 68 - Invalid lang file format. New line character was found while parsing key: '//items'.
+
+[Localization][warning]-Line: 73 - Invalid lang file format. New line character was found while parsing key: '//spawn eggs//'.
+
+[Localization][warning]-Line: 111 - Invalid lang file format. New line character was found while parsing key: '//entities//'.
+
+[Localization][warning]-Line: 149 - Invalid lang file format. New line character was found while parsing key: '//new furni//'.
+
+[Localization][warning]-Line: 187 - Invalid lang file format. New line character was found while parsing key: '///'.
+
+[Animation][error]-Error: can't find animation move
+
+[Animation][error]-Error: can't find animation riding
+
+[Molang][error]-particles/missile2.particle.json | ParticleEffect::_extractComponents | minecraft:particle_initial_spin | ParticleInitialSpinComponent | rotation | math.random(360,-360( | Unable to find matching closing section symbol for symbol at 7(Left Parenthesis '(') -- looking for Right Parenthesis ')'
+
+[Molang][error]-particles/missile2.particle.json | ParticleEffect::_extractComponents | minecraft:particle_initial_spin | ParticleInitialSpinComponent | rotation | math.random(360,-360( | Error: Could not find Right Parenthesis ')' to close section started with Left Parenthesis '('
+
+
+[Molang][error]-C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/resource_packs/USSMissour/animation_controllers/custom.animation_controllers.json | animation_controllers | controller.animation.rum139 | states | default | transitions | firing | query.variant =! 0 | Error: complex expressions (contains either '=' or ';') must end with a ';'
+
+
+[Molang][error]-render_controllers/Vehicles.json | controller.render.missouri | textures | array.is_skin_id[query.is_skin_id] | unrecognized token: query.is_skin_id]
+
+[Effects][error]-entity/phalanx turret.json | Entity .json 'entity/phalanx turret.json' referenced particle 'shoot:phalanx3' that doesn't exist
+
+[Molang][error]-us:bofor_shell | us:bofor_shell | controller.render.shell_phalanx | Materials | friendly name 'material.shoot' not found in entity friendly name list (material.default) - check your spelling?
+
+[Geometry][error]-us:aim | us:aim | geometry not found?
+
+[Molang][error]-us:phalanx_shell | us:phalanx_shell | controller.render.shell_phalanx | Materials | friendly name 'material.shoot' not found in entity friendly name list (material.default) - check your spelling?
+
+[Molang][error]-us:rah66_bullet | us:rah66_bullet | controller.render.shell_target | Geometries | friendly name 'geometry.move' not found in entity friendly name list (geometry.default) - check your spelling?
+
+[Molang][error]-us:rah66_bullet | us:rah66_bullet | controller.render.shell_target | Textures | friendly name 'texture.move' not found in entity friendly name list (texture.default) - check your spelling?
+
+[Molang][error]-us:rah66_bullet | us:rah66_bullet | controller.render.shell_target | Materials | friendly name 'material.move' not found in entity friendly name list (material.default) - check your spelling?
+
+[Item][error]-Cannot find spawn_egg texture spawn_egg with index 69
+
