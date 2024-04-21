@@ -2,7 +2,7 @@
     "format_version": "1.13.0",
     "minecraft:recipe_shaped": {
       "description": {
-        "identifier": "us:phalanx_spawn_egg"
+        "identifier": "us:phalanx_turret_spawn_egg"
       },
       "tags": ["crafting_table"],
       "pattern": [
