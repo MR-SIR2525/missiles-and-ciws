@@ -44,9 +44,8 @@
                 "phalanx.startshoot": "us.phalanxstartshoot"
             },
             "spawn_egg": {
-                "texture": "minecraft:spawn_egg",
-                "base_color": "#FFFFFF",
-                "overlay_color": "#9bade4"
+                "texture": "phalanx_turret_spawn_egg",
+                "texture_index": 0
             },
             "textures": {
                 "default": "phalanx"

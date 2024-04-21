@@ -7,7 +7,7 @@
             },
             "identifier": "us:phalanx",
             "is_experimental": false,
-            "is_spawnable": false,
+            "is_spawnable": true,
             "is_summonable": true,
             "scripts": {
                 "animate": [

@@ -86,7 +86,8 @@
             "textures": "textures/items/pamobile/ww3_turn_right"
         },
         "phalanx_turret_spawn_egg": {
-            "textures": "textures/items/spawn_egg"
+            "textures": "phalanx_turret_spawn_egg"
+            //supposed to be in textures/items/, will fix later along with other items...
         }
     },
     "texture_name": "atlas.items"
