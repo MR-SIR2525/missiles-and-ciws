@@ -28,9 +28,9 @@
             "name": "Low"
         },
         {
-            "folder_name": "hight",
+            "folder_name": "high",
             "memory_tier": 1,
-            "name": "Hight"
+            "name": "High"
         }
     ]
 }
