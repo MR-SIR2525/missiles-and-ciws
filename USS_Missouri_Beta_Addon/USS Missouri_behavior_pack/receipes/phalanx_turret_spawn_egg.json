@@ -1,10 +1,10 @@
 {
-  "format_version": "1.13.0",
+  "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "us:phalanx_turret_spawn_egg"
+      "identifier": "us:phalanx_turret_spawn_egg_recipe"
     },
-    "tags": ["crafting_table"],
+    "tags": [ "crafting_table" ],
     "pattern": [
       "III",
       "LRG",
@@ -23,6 +23,9 @@
       "G": {
         "item": "minecraft:gunpowder"
       }
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
     },
     "result": {
       "item": "us:phalanx_turret_spawn_egg",
