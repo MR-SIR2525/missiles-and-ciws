@@ -15,7 +15,7 @@
         "item": "minecraft:iron_block"
       },
       "L": {
-        "item": "minecraft:glass_block"
+        "item": "minecraft:glass"
       },
       "R": {
         "item": "minecraft:redstone"
