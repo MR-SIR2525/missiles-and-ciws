@@ -79,19 +79,25 @@
 
 [Actor][warning]-Test CIWS | actor_definitions | C:/Users/candr/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/2YklZsjlAAA=/behavior_packs/USSMissour | us:bofor_shell | The component minecraft:damage_sensor will not be added to this entity as it won't work unless the format version is 1.15 or greater.
 
+[Recipes][error]-recipes/phalanx_turret_spawn_egg.json | us:phalanx_turret_spawn_egg | The Item: minecraft:phalanx_turret_spawn_egg is missing or invalid, can't make the recipe
+
+
+[Recipes][error]-recipes/phalanx_turret_spawn_egg.json | us:phalanx_turret_spawn_egg | Recipe result malformed
+
+
 [Localization][warning]-Line: 68 - Invalid lang file format. New line character was found while parsing key: '//items'.
 
 [Localization][warning]-Line: 73 - Invalid lang file format. New line character was found while parsing key: '//spawn eggs//'.
 
 [Localization][warning]-Line: 111 - Invalid lang file format. New line character was found while parsing key: '//entities//'.
 
-[Animation][error]-Error: can't find animation move
-
 [Localization][warning]-Line: 149 - Invalid lang file format. New line character was found while parsing key: '//new furni//'.
 
-[Animation][error]-Error: can't find animation riding
-
 [Localization][warning]-Line: 187 - Invalid lang file format. New line character was found while parsing key: '///'.
+
+[Animation][error]-Error: can't find animation move
+
+[Animation][error]-Error: can't find animation riding
 
 [Molang][error]-particles/missile2.particle.json | ParticleEffect::_extractComponents | minecraft:particle_initial_spin | ParticleInitialSpinComponent | rotation | math.random(360,-360( | Unable to find matching closing section symbol for symbol at 7(Left Parenthesis '(') -- looking for Right Parenthesis ')'
 
